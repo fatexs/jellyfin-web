@@ -2,7 +2,7 @@
 # Maintainer: Giovanni Harting <anonfunc@archlinux.org>
 
 pkgname=jellyfin-web
-pkgver=10.11.3
+pkgver=12
 pkgrel=1
 pkgdesc='Web client for Jellyfin'
 arch=(any)
@@ -14,7 +14,7 @@ makedepends=(
   npm
 )
 source=(
-  "$pkgname::git+https://github.com/fatexs/jellyfin-web#branch=release-10.11.z"
+  "$pkgname::git+https://github.com/fatexs/jellyfin-web"
 )
 sha512sums=('SKIP')
 b2sums=('SKIP')
