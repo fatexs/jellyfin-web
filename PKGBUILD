@@ -13,7 +13,7 @@ makedepends=(
   nodejs
   npm
 )
-source=("$pkgname::git+https://github.com/jellyfin/jellyfin-web#tag=v$pkgver")
+source=("$pkgname::git+https://github.com/jellyfin-web/tree/12.1-patched")
 sha512sums=('SKIP')
 b2sums=('SKIP')
 
